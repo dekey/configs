@@ -106,6 +106,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias zreload="source ~/.zshrc"
+alias treload="tmux source ~/.tmux.conf"
 
 export GOPATH=$HOME/go PATH="/usr/local/sbin:$PATH:$GOPATH/bin"
 
